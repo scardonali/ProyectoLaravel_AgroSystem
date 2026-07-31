@@ -1,0 +1,72 @@
+/* Contenedor del logo */
+.brand-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;   /* controla el alto */
+    padding: 5px;
+    overflow: hidden; /* evita que se salga */
+}
+
+/* Imagen */
+.brand-link img {
+    max-height: 50px; /* AJUSTA ESTE VALOR */
+    width: auto;
+    object-fit: contain;
+}
+
+.main-sidebar {
+    background: linear-gradient(180deg, #1b5e20, #00a708);
+    box-shadow: 2px 0 10px rgba(0,0,0,0.2);
+}
+.content-wrapper {
+    box-shadow: inset 0 0 20px rgba(0,0,0,0.05);
+    background: #f5f5dc;
+}
+.brand-link {
+    background-color: #ffffff;
+    border-bottom: 3px solid #a5d6a7;
+    padding: 10px;
+}
+.nav-sidebar .nav-link {
+    border-radius: 8px;
+    margin: 5px;
+    color: #ffffff !important;
+}
+
+.nav-sidebar .nav-link:hover {
+    background-color: #2e7d32 !important;
+}
+
+
+.sidebar-mini.sidebar-collapse .nav-sidebar .nav-icon {
+    font-size: 20px;
+}
+.sidebar-mini.sidebar-collapse .nav-link:hover {
+    background-color: #71d676 !important;
+    border-radius: 10px;
+}
+
+
+/* HEADER AGRO (cards) */
+.header-agro {
+    background: linear-gradient(180deg, #1b5e20, #00a708);
+    color: white;
+}
+
+/* BOTÓN PRINCIPAL AGRO */
+.btn-agro {
+    background: linear-gradient(180deg, #1b5e20, #00a708);
+    border: none;
+    color: white;
+}
+
+.btn-agro:hover {
+    opacity: 0.9;
+}
+
+/* OPCIONAL: inputs con toque verde al enfocar */
+.form-control:focus {
+    border-color: #1b5e20;
+    box-shadow: 0 0 0 0.2rem rgba(27, 94, 32, 0.25);
+}
