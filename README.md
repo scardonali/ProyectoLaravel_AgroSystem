@@ -41,7 +41,7 @@ AgroSystem is a Laravel-based web application for agricultural management. It fe
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/AgroSystem.git
+git clone https://github.com/scardonali/ProyectoLaravel_AgroSystem.git
 ```
 
 Go to the project folder:
